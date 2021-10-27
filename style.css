@@ -1,0 +1,81 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin: -8px -8px;
+
+}
+.container-1{
+    display:flex;
+    width: 1520px;
+    justify-content: end;
+    background-color: firebrick;
+}
+.nav_bar_container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 225px;
+}
+.container-2{
+    height: 200px;
+    background: url("https://64.media.tumblr.com/7f528031360c86cdb22ffc455badad6d/6957d4a37bde0425-16/s400x600/926622f39631fa0fdcff7788f54ef9d34ecdfc51.jpg");
+    background-size: cover;
+    display:flex;
+    justify-content: space-around;
+}
+.container-3{
+    display: flex;
+    justify-content: space-between;
+}
+.left,.right{
+    display: flex;
+    flex-direction: column;
+}
+.boxes{
+    display:flex;
+    flex-direction: column;
+    margin:50px 200px;
+    width: 200px;
+    height: 100px;
+    background-color: firebrick;
+    justify-content: space-between;
+    text-align: center;
+}
+.container-4{
+    display: flex;
+
+    justify-content: center;
+    background-color: coral;
+
+}
+.text-1{
+    color:white;
+    width:800px;
+    margin: 50px;
+}
+
+.container-5{
+    display: flex;
+
+    justify-content: space-between;
+}
+.boxes-2{
+    display:flex;
+    flex-direction: column;
+    margin:50px 200px;
+    width: 400px;
+    height: 200px;
+    background-color: firebrick;
+    justify-content: space-between;
+    text-align: center;
+}
+.container-6{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    background-color: firebrick;
+}
